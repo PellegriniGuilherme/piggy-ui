@@ -15,6 +15,6 @@
       "@piggy-ui/*": ["package/components/*"]
     }
   },
-  "include": ["package/components", "package/lib"],
+  "include": ["package/components", "package/lib", "package/index.ts"],
   "exclude": ["**/*.stories.tsx", "**/*.test.tsx", "node_modules"]
 }
