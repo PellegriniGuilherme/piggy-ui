@@ -4,13 +4,13 @@ import { ptBR } from "date-fns/locale"
 import { CalendarIcon } from "lucide-react"
 
 import { cn } from "../../lib/utils"
-import { Button } from "@/components/Button/button"
-import { Calendar } from "@/components/Calendar/calendar"
 import {
   Popover,
   PopoverContent,
   PopoverTrigger,
 } from "@/components/Popover/popover"
+import { Button } from "../Button"
+import { Calendar } from "../Calendar"
 
 export function DatePicker({
   value,

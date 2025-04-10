@@ -17,3 +17,5 @@ export * from "./components/Switch";
 export * from "./components/Tooltip";
 
 export * from "./lib/utils";
+
+import "./index.css"
