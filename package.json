@@ -1,11 +1,20 @@
 {
-  "name": "piggy-ui",
+  "name": "@pellegrinidev/piggy-ui",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
   "files": [
-    "dist"
+    "dist",
+    "!**/*.stories.*",
+    "!**/__tests__"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pellegrinidev/piggy-ui"
+  },
+  "author": "Guilherme Pellegrini <pellegrini458@gmail.com>",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "build": "tsc -p tsconfig.build.json",
