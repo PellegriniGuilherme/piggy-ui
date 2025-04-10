@@ -8,7 +8,7 @@ import {
   Popover,
   PopoverContent,
   PopoverTrigger,
-} from "@/components/Popover/popover"
+} from "../Popover"
 import { Button } from "../Button"
 import { Calendar } from "../Calendar"
 
