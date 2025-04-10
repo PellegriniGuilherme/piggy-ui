@@ -1,0 +1,20 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "composite": true,
+    "declaration": true,
+    "declarationDir": "dist",
+    "emitDeclarationOnly": false,
+    "outDir": "dist",
+    "noEmit": false,
+    "baseUrl": ".", 
+    "paths": {
+      "@/*": ["package/*"],
+      "@piggy-ui/*": ["package/components/*"]
+    }
+  },
+  "include": ["package/components", "package/lib"],
+  "exclude": ["**/*.stories.tsx", "**/*.test.tsx", "node_modules"]
+}

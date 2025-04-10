@@ -1,0 +1,42 @@
+import { Meta } from '@storybook/blocks'
+
+<Meta title="PiggyUI/Presentation" />
+
+<div className="flex flex-col items-center justify-center p-8 text-center">
+  <img
+    src="/piggy-ui.svg"
+    alt="PiggyUI Logo"
+    className="h-24 mb-4"
+  />
+  <p className="text-neutral-600 dark:text-neutral-300 max-w-xl">
+    O <strong>PiggyUI</strong> é um Design System divertido, funcional e acessível desenvolvido com Tailwind CSS, shadcn/ui e tokens em oklch.
+    Ele foi criado para oferecer consistência visual, suporte total ao modo escuro e personalização com foco em produtividade.
+  </p>
+
+  <div className="mt-8 grid grid-cols-2 md:grid-cols-3 gap-4 text-sm text-left w-full max-w-3xl">
+    <div className="bg-muted p-4 rounded-lg border">
+      <h3 className="text-brand-500 font-semibold">🎨 Cores</h3>
+      <p>Paleta baseada em oklch, com tokens de `brand`, `neutral`, `success`, `danger` e `chart`.</p>
+    </div>
+
+    <div className="bg-muted p-4 rounded-lg border">
+      <h3 className="text-brand-500 font-semibold">🔠 Tipografia</h3>
+      <p>Usa a fonte <code>Fredoka</code>, leve e amigável, perfeita para interfaces acessíveis e modernas.</p>
+    </div>
+
+    <div className="bg-muted p-4 rounded-lg border">
+      <h3 className="text-brand-500 font-semibold">🧩 Base Radix + Shadcn</h3>
+      <p>Componentes acessíveis com Radix UI e estrutura pronta para personalização visual via Tailwind.</p>
+    </div>
+
+    <div className="bg-muted p-4 rounded-lg border">
+      <h3 className="text-brand-500 font-semibold">⚡ Tokens</h3>
+      <p>Todos os tokens estão disponíveis via CSS custom properties e integrados ao Tailwind 4.</p>
+    </div>
+
+    <div className="bg-muted p-4 rounded-lg border">
+      <h3 className="text-brand-500 font-semibold">📦 Composição</h3>
+      <p>Fácil de usar em apps React, com documentação visual no próprio Storybook.</p>
+    </div>
+  </div>
+</div>
