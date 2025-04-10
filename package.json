@@ -93,6 +93,74 @@
     ".": {
       "import": "./dist/package/index.js",
       "types": "./dist/package/index.d.ts"
+    },
+    "./AlertDialog": {
+      "import": "./dist/package/components/AlertDialog/index.js",
+      "types": "./dist/package/components/AlertDialog/index.d.ts"
+    },
+    "./Badge": {
+      "import": "./dist/package/components/Badge/index.js",
+      "types": "./dist/package/components/Badge/index.d.ts"
+    },
+    "./Button": {
+      "import": "./dist/package/components/Button/index.js",
+      "types": "./dist/package/components/Button/index.d.ts"
+    },
+    "./Calendar": {
+      "import": "./dist/package/components/Calendar/index.js",
+      "types": "./dist/package/components/Calendar/index.d.ts"
+    },
+    "./Card": {
+      "import": "./dist/package/components/Card/index.js",
+      "types": "./dist/package/components/Card/index.d.ts"
+    },
+    "./DatePicker": {
+      "import": "./dist/package/components/DatePicker/index.js",
+      "types": "./dist/package/components/DatePicker/index.d.ts"
+    },
+    "./Dialog": {
+      "import": "./dist/package/components/Dialog/index.js",
+      "types": "./dist/package/components/Dialog/index.d.ts"
+    },
+    "./ErrorText": {
+      "import": "./dist/package/components/ErrorText/index.js",
+      "types": "./dist/package/components/ErrorText/index.d.ts"
+    },
+    "./Input": {
+      "import": "./dist/package/components/Input/index.js",
+      "types": "./dist/package/components/Input/index.d.ts"
+    },
+    "./Label": {
+      "import": "./dist/package/components/Label/index.js",
+      "types": "./dist/package/components/Label/index.d.ts"
+    },
+    "./Pagination": {
+      "import": "./dist/package/components/Pagination/index.js",
+      "types": "./dist/package/components/Pagination/index.d.ts"
+    },
+    "./Popover": {
+      "import": "./dist/package/components/Popover/index.js",
+      "types": "./dist/package/components/Popover/index.d.ts"
+    },
+    "./Select": {
+      "import": "./dist/package/components/Select/index.js",
+      "types": "./dist/package/components/Select/index.d.ts"
+    },
+    "./Separator": {
+      "import": "./dist/package/components/Separator/index.js",
+      "types": "./dist/package/components/Separator/index.d.ts"
+    },
+    "./Sheet": {
+      "import": "./dist/package/components/Sheet/index.js",
+      "types": "./dist/package/components/Sheet/index.d.ts"
+    },
+    "./Switch": {
+      "import": "./dist/package/components/Switch/index.js",
+      "types": "./dist/package/components/Switch/index.d.ts"
+    },
+    "./Tooltip": {
+      "import": "./dist/package/components/Tooltip/index.js",
+      "types": "./dist/package/components/Tooltip/index.d.ts"
     }
   }
 }
