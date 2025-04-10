@@ -1,54 +1,89 @@
-# React + TypeScript + Vite
+# 🐷 PiggyUI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**PiggyUI** é um Design System divertido, funcional e acessível feito para turbinar o desenvolvimento de interfaces modernas com **Tailwind CSS**, **shadcn/ui** e **Radix UI**. Com suporte completo a **modo escuro**, **tokens com OKLCH**, e foco em **produtividade e consistência visual**.
 
-Currently, two official plugins are available:
+![PiggyUI Logo](https://raw.githubusercontent.com/seu-usuario/seu-repo/main/public/piggy-ui.svg)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+| 💡 Recurso        | ⚙️ Descrição |
+|-------------------|-------------|
+| 🎨 **Cores**       | Paleta baseada em `oklch` com tokens `brand`, `neutral`, `success`, `danger`, `chart`. |
+| 🔠 **Tipografia**  | Fonte `Fredoka`, amigável e acessível. |
+| 🧩 **Base Radix + Shadcn** | Componentes acessíveis prontos para estilização. |
+| ⚡ **Tokens CSS**  | Totalmente customizável via CSS Custom Properties. |
+| 📦 **Composição fácil** | Otimizado para uso com React e Storybook. |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 📦 Instalação
+
+```bash
+pnpm add @pellegrinidev/piggy-ui
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+ou
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+```bash
+npm install @pellegrinidev/piggy-ui
 ```
+
+---
+
+## 🛠️ Uso
+
+Importe os componentes individualmente:
+
+```tsx
+import { Button } from '@pellegrinidev/piggy-ui'
+
+export function App() {
+  return <Button>Me clica 🐷</Button>
+}
+```
+
+---
+
+## 📚 Documentação
+
+Acesse a [Documentação via Storybook](https://seu-link-do-storybook.vercel.app) para exemplos, variações e playground dos componentes.
+
+---
+
+## 🚀 Roadmap
+
+- [x] Suporte a modo escuro
+- [x] Tokens em oklch
+- [x] Base Radix com Tailwind
+- [ ] Temas customizáveis
+- [ ] Composição de layout pronta
+
+---
+
+## 🤝 Contribuindo
+
+1. Fork o projeto
+2. Crie sua branch: `git checkout -b minha-feature`
+3. Commit: `git commit -m 'feat: nova feature'`
+4. Push: `git push origin minha-feature`
+5. Crie um Pull Request ✨
+
+---
+
+## 🧠 Feito com
+
+- [React](https://react.dev)
+- [Tailwind CSS](https://tailwindcss.com)
+- [shadcn/ui](https://ui.shadcn.dev/)
+- [Radix UI](https://www.radix-ui.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+---
+
+## 🐷 Sobre
+
+Feito com carinho por [@pellegrinidev](https://github.com/PellegriniGuilherme)
+
+---
+
+> **PiggyUI**: simples, consistente e pronto pra produção ✨
