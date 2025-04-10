@@ -1,20 +1,23 @@
 import { readdirSync, readFileSync, writeFileSync } from "fs"
 
-const folders = readdirSync("./package/components", { withFileTypes: true })
+const basePath = "./dist/package"
+const componentBase = `${basePath}/components`
+
+const folders = readdirSync("package/components", { withFileTypes: true })
   .filter(dirent => dirent.isDirectory())
   .map(dirent => dirent.name)
 
 const exportsObj = {
   ".": {
-    import: "./dist/index.js",
-    types: "./dist/index.d.ts"
+    import: `${basePath}/index.js`,
+    types: `${basePath}/index.d.ts`
   }
 }
 
 folders.forEach(name => {
   exportsObj[`./${name}`] = {
-    import: `./dist/components/${name}/index.js`,
-    types: `./dist/components/${name}/index.d.ts`
+    import: `${componentBase}/${name}/index.js`,
+    types: `${componentBase}/${name}/index.d.ts`
   }
 })
 
