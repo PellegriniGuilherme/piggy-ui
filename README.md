@@ -2,8 +2,6 @@
 
 **PiggyUI** é um Design System divertido, funcional e acessível feito para turbinar o desenvolvimento de interfaces modernas com **Tailwind CSS**, **shadcn/ui** e **Radix UI**. Com suporte completo a **modo escuro**, **tokens com OKLCH**, e foco em **produtividade e consistência visual**.
 
-![PiggyUI Logo](https://raw.githubusercontent.com/seu-usuario/seu-repo/main/public/piggy-ui.svg)
-
 ## ✨ Features
 
 | 💡 Recurso        | ⚙️ Descrição |
