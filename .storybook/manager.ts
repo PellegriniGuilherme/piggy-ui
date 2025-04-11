@@ -6,7 +6,7 @@ const piggyTheme = create({
 
   brandTitle: "PiggyUI",
   brandUrl: "https://github.com/PellegriniGuilherme",
-  brandImage: "/piggy-ui.svg",
+  brandImage: "piggy-ui.svg",
 
   fontBase: "'Outfit', sans-serif",
   fontCode: "'Fira Code', monospace",

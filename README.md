@@ -28,6 +28,18 @@ npm install @pellegrinidev/piggy-ui
 
 ---
 
+## 🎨 Estilos
+
+Para aplicar os estilos corretamente, importe o arquivo de CSS principal no seu projeto:
+
+```tsx
+import '@pellegrinidev/piggy-ui/style.css';
+```
+
+> Essa linha deve ser importada uma única vez, preferencialmente no nível da aplicação, como em `_app.tsx` (Next.js) ou `main.tsx` (Vite/React).
+
+---
+
 ## 🛠️ Uso
 
 Importe os componentes individualmente:
