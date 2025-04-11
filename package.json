@@ -30,9 +30,7 @@
     "build-storybook": "storybook build",
     "generate:exports": "node scripts/generate-exports.js",
     "prepublishOnly": "pnpm build",
-    "build:types": "tsc -p tsconfig.build.json",
-    "build:vite": "vite build",
-    "build": "pnpm build:vite"
+    "build": "pnpm tsc -p tsconfig.build.json && pnpm vite build "
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.7",
