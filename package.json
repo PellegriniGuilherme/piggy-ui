@@ -1,12 +1,13 @@
 {
   "name": "@pellegrinidev/piggy-ui",
-  "version": "1.0.13",
+  "version": "1.0.14",
   "type": "module",
   "main": "./dist/package/index.js",
   "module": "./dist/package/index.js",
   "types": "./dist/types/index.d.ts",
   "exports": {
     ".": {
+      "types": "./dist/types/index.d.ts",
       "import": "./dist/package/index.js",
       "require": "./dist/package/index.js"
     },
