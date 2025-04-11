@@ -29,6 +29,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
+    "deploy-storybook": "storybook-to-ghpages",
     "generate:exports": "node scripts/generate-exports.js",
     "prepublishOnly": "pnpm build",
     "build": "pnpm tsc -p tsconfig.build.json && pnpm vite build "
