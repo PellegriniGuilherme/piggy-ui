@@ -3,27 +3,19 @@
   "compilerOptions": {
     "module": "ESNext",
     "moduleResolution": "node",
+    "target": "ESNext",
     "composite": true,
     "declaration": true,
-    "declarationDir": "dist",
-    "emitDeclarationOnly": false,
-    "outDir": "dist",
-    "noEmit": false,
+    "declarationDir": "./dist/types",
+    "emitDeclarationOnly": true,
+    "outDir": "./dist/types",
+    "rootDir": "./package",
     "baseUrl": ".",
     "paths": {
       "@/*": ["package/*"],
       "@piggy-ui/*": ["package/components/*"]
     }
   },
-  "include": [
-    "package/components",
-    "package/lib",
-    "package/index.ts",
-    "package/main.ts"
-  ],
-  "exclude": [
-    "**/*.stories.tsx",
-    "**/*.test.tsx",
-    "node_modules"
-  ]
+  "include": ["package/**/*"],
+  "exclude": ["**/*.stories.tsx", "**/*.test.tsx", "node_modules"]
 }
