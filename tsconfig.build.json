@@ -9,12 +9,21 @@
     "emitDeclarationOnly": false,
     "outDir": "dist",
     "noEmit": false,
-    "baseUrl": ".", 
+    "baseUrl": ".",
     "paths": {
       "@/*": ["package/*"],
       "@piggy-ui/*": ["package/components/*"]
     }
   },
-  "include": ["package/components", "package/lib", "package/index.ts"],
-  "exclude": ["**/*.stories.tsx", "**/*.test.tsx", "node_modules"]
+  "include": [
+    "package/components",
+    "package/lib",
+    "package/index.ts",
+    "package/main.ts"
+  ],
+  "exclude": [
+    "**/*.stories.tsx",
+    "**/*.test.tsx",
+    "node_modules"
+  ]
 }

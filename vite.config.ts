@@ -1,12 +1,14 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react-swc';
 import path from 'path';
-import dts from 'vite-plugin-dts';
+import tailwindcss from '@tailwindcss/vite';
+import dts from 'vite-plugin-dts'
 
 export default defineConfig({
   plugins: [
     react(),
-    dts()
+    tailwindcss(),
+    dts(),
   ],
   build: {
     lib: {
@@ -18,7 +20,7 @@ export default defineConfig({
     cssCodeSplit: false,
     outDir: 'dist/package',
     rollupOptions: {
-      external: ['react', 'react-dom'],
+      external: ['react', 'react-dom', 'tailwindcss'],
       output: {
         globals: {
           react: 'React',
