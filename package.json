@@ -1,6 +1,6 @@
 {
   "name": "@pellegrinidev/piggy-ui",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "type": "module",
   "main": "./dist/package/index.js",
   "types": "./dist/package/index.d.ts",
@@ -23,7 +23,7 @@
     "build-storybook": "storybook build",
     "generate:exports": "node scripts/generate-exports.js",
     "prepublishOnly": "pnpm generate:exports && pnpm build",
-    "build": "tsc -p tsconfig.build.json && vite build"
+    "build": "vite build"
   },
   "dependencies": {
     "@radix-ui/react-alert-dialog": "^1.1.7",
@@ -47,7 +47,8 @@
     "react-dom": "^19.0.0",
     "tailwind-merge": "^3.2.0",
     "tailwindcss": "^4.1.3",
-    "tw-animate-css": "^1.2.5"
+    "tw-animate-css": "^1.2.5",
+    "vite-plugin-dts": "^4.5.3"
   },
   "devDependencies": {
     "@chromatic-com/storybook": "^3",
