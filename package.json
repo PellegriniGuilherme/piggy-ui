@@ -29,7 +29,7 @@
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "deploy-storybook": "storybook-to-ghpages",
+    "deploy-storybook": "pnpm build-storybook && gh-pages -d storybook-static",
     "generate:exports": "node scripts/generate-exports.js",
     "prepublishOnly": "pnpm build",
     "build": "pnpm tsc -p tsconfig.build.json && pnpm vite build "
@@ -81,6 +81,7 @@
     "eslint-plugin-react-hooks": "^5.1.0",
     "eslint-plugin-react-refresh": "^0.4.19",
     "eslint-plugin-storybook": "^0.12.0",
+    "gh-pages": "^6.3.0",
     "glob": "^11.0.1",
     "globals": "^15.15.0",
     "playwright": "^1.51.1",
