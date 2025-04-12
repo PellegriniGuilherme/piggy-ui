@@ -5,7 +5,7 @@ type HeadingProps = {
   children: ReactNode;
   className?: string;
   as?: ElementType;
-  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl';
+  size?: 'xs' | 'sm' | 'md' | 'lg' | 'xl' | '2xl' | '3xl' | '4xl';
   weight?: 'normal' | 'medium' | 'semibold' | 'bold' | 'extrabold';
   align?: 'left' | 'center' | 'right';
 };
@@ -25,6 +25,8 @@ export const Heading = ({
     lg: 'text-lg',
     xl: 'text-xl',
     '2xl': 'text-2xl',
+    '3xl': 'text-3xl',
+    '4xl': 'text-4xl',
   }[size];
 
   const weightClasses = {
