@@ -15,4 +15,6 @@ export * from "./components/Separator/separator";
 export * from "./components/Sheet/sheet";
 export * from "./components/Switch/switch";
 export * from "./components/Tooltip/tooltip";
+export * from "./components/Heading/heading";
+export * from "./components/Text/text";
 export * from "./lib/utils";
