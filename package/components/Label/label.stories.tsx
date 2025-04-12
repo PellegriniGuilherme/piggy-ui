@@ -2,7 +2,7 @@ import { Meta, StoryObj } from '@storybook/react';
 import { Label } from './label';
 
 const meta: Meta<typeof Label> = {
-  title: 'PiggyUI/Components/Label',
+  title: 'PiggyUi/Typography/Label',
   component: Label,
   tags: ['autodocs'],
 };
