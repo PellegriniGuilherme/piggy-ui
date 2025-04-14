@@ -91,12 +91,12 @@
   --color-neutral-900: var(--neutral-900);
 
   /* Success */
-  --color-brand-success-100: var(--success-100);
-  --color-brand-success-200: var(--success-200);
-  --color-brand-success-300: var(--success-300);
-  --color-brand-success-400: var(--success-400);
-  --color-brand-success-500: var(--success-500);
-  --color-brand-success-600: var(--success-600);
+  --color-success-100: var(--success-100);
+  --color-success-200: var(--success-200);
+  --color-success-300: var(--success-300);
+  --color-success-400: var(--success-400);
+  --color-success-500: var(--success-500);
+  --color-success-600: var(--success-600);
 
   /* Danger */
   --color-danger-100: var(--danger-100);

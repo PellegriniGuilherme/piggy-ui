@@ -17,4 +17,5 @@ export * from "./components/Switch/switch";
 export * from "./components/Tooltip/tooltip";
 export * from "./components/Heading/heading";
 export * from "./components/Text/text";
+export * from "./components/Toaster/toaster";
 export * from "./lib/utils";
