@@ -3,12 +3,8 @@
 @source inline("{hover:,focus:,}text-{brand,secondary,neutral,success,danger}-{50,{100..900..100}}");
 @source inline("{hover:,focus:,}border-{brand,secondary,neutral,success,danger}-{50,{100..900..100}}");
 
-
 @import "tailwindcss";
 @import "tw-animate-css";
-
-
-@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
