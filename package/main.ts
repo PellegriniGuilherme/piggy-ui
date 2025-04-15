@@ -18,5 +18,6 @@ export * from "./components/Tooltip/tooltip";
 export * from "./components/Heading/heading";
 export * from "./components/Text/text";
 export * from "./components/Toaster/toaster";
+export * from "./components/Sidebar/sidebar";
 export { toast } from 'sonner';
 export * from "./lib/utils";
