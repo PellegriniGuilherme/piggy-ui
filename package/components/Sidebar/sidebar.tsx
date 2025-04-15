@@ -458,6 +458,7 @@ const sidebarMenuButtonVariants = cva(
     "data-[active=true]:bg-brand-50 data-[active=true]:text-brand-700",
     "data-[state=open]:hover:bg-brand-50 data-[state=open]:hover:text-brand-700",
     "group-data-[collapsible=icon]:w-8 group-data-[collapsible=icon]:p-2",
+    "cursor-pointer data-[active=true]:cursor-default",
   ],
   {
     variants: {
