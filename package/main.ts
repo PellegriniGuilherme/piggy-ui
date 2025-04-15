@@ -22,3 +22,4 @@ export * from "./components/Sidebar/sidebar";
 export * from "./components/Skeleton/skeleton";
 export { toast } from 'sonner';
 export * from "./lib/utils";
+export * from "./hooks/use-mobile";
