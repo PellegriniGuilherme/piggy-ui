@@ -20,6 +20,7 @@ export * from "./components/Text/text";
 export * from "./components/Toaster/toaster";
 export * from "./components/Sidebar/sidebar";
 export * from "./components/Skeleton/skeleton";
+export * from "./components/DropdownMenu/dropdown-menu";
 export { toast } from 'sonner';
 export * from "./lib/utils";
 export * from "./hooks/use-mobile";
