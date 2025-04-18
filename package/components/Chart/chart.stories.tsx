@@ -15,7 +15,7 @@ const sampleData = [
 ]
 
 const meta: Meta<typeof ChartContainer> = {
-  title: 'Components/Charts',
+  title: 'PiggyUi/Components/Charts',
   component: ChartContainer,
   tags: ['autodocs'],
   decorators: [
