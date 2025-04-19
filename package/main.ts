@@ -25,3 +25,4 @@ export * from "./components/Chart/chart";
 export { toast } from 'sonner';
 export * from "./lib/utils";
 export * from "./hooks/use-mobile";
+export * as Recharts from 'recharts'
